@@ -25,6 +25,7 @@ class Main {
             }
 
         }
+        // Capitalize vowel
         String capitalizeVowel = "";
         for (int i = 0; i < letterArray.length; i++) {
             if (letterArray[i] == 'a' ||
