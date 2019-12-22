@@ -6,6 +6,7 @@ import java.io.*;
 class Main {
 
     public static int SimpleAdding(int num) {
+        // Base case
         if (num == 0) {
             return 0;
         } else {

@@ -18,6 +18,7 @@ import java.io.*;
 class Main {
 
     public static int FirstFactorial(int num) {
+        // Base case
         if (num == 1) {
             return num;
 
