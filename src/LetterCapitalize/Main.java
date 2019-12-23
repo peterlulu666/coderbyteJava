@@ -23,13 +23,16 @@ public class Main {
         var wordArr = words.split(" ");
         String wordStr = "";
         for (int i = 0; i < wordArr.length; i++) {
-            wordStr = wordStr + wordArr[i].substring(0, 1).toUpperCase() + wordArr[i].substring(1, wordArr[i].length()) + " ";
+            wordStr = wordStr +
+                    wordArr[i].substring(0, 1).toUpperCase() +
+                    wordArr[i].substring(1, wordArr[i].length()) +
+                    " ";
 
         }
         System.out.println(Arrays.toString(wordArr));
         System.out.println(wordStr);
 
-        
+
     }
 
 }
