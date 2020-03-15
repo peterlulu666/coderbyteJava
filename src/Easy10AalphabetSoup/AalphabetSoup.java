@@ -87,9 +87,7 @@ public class AalphabetSoup {
                     break;
 
                 }
-
             }
-
         }
 
         return alphabeticalCharacter;
@@ -103,5 +101,4 @@ public class AalphabetSoup {
         System.out.println(aalphabetSoup.alphabeticalStr("coderbyte"));
 
     }
-
 }
