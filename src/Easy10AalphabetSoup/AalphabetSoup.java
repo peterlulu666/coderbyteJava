@@ -18,7 +18,6 @@ Output: "ahhloop"
 
 package Easy10AalphabetSoup;
 
-import java.util.Arrays;
 
 public class AalphabetSoup {
     String alphabeticalOrder(String str) {
@@ -30,7 +29,6 @@ public class AalphabetSoup {
 
         }
         // Sort array
-//        Arrays.sort(characterArray);
         for (int i = 0; i < characterArray.length; i++) {
             for (int leftIndex = 0; leftIndex < characterArray.length - 1; leftIndex++) {
                 if (characterArray[leftIndex] > characterArray[leftIndex + 1]) {
