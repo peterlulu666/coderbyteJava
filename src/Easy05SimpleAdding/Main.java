@@ -10,10 +10,9 @@ Output: 78
 Input: 140
 Output: 9870
 */
-package SimpleAdding;
+package Easy05SimpleAdding;
 
 import java.util.*;
-import java.io.*;
 
 class Main {
 

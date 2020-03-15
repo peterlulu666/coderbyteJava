@@ -7,10 +7,9 @@ Output: Ifmmp*3
 Input: "fun times!"
 Output: gvO Ujnft!
 */
-package LetterChanges;
+package Easy04LetterChanges;
 
 import java.util.*;
-import java.io.*;
 
 class Main {
 

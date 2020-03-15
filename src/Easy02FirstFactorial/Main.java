@@ -10,10 +10,9 @@ Output: 24
 Input: 8
 Output: 40320
 */
-package FirstFactorial;
+package Easy02FirstFactorial;
 
 import java.util.*;
-import java.io.*;
 
 class Main {
 

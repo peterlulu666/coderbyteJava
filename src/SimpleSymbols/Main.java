@@ -22,7 +22,7 @@ package SimpleSymbols;
 
 public class Main {
     public static void main(String[] args) {
-        String words = "++d+===+c++==a";
+        String words = "+d+=3=+s+";
         boolean isAcceptableSequence = false;
         for (int i = 0; i < words.length(); i++) {
             if (words.length() <= 2) {

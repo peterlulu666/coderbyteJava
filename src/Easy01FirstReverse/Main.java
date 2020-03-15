@@ -9,10 +9,9 @@ Output: etybredoc
 Input: "I Love Code"
 Output: edoC evoL I
 */
-package FirstReverse;
+package Easy01FirstReverse;
 
 import java.util.*;
-import java.io.*;
 
 class Main {
 

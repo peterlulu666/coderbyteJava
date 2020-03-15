@@ -9,10 +9,9 @@ Output: time
 Input: "I love dogs"
 Output: love
 */
-package LongestWord;
+package Easy03LongestWord;
 
 import java.util.*;
-import java.io.*;
 
 class Main {
 
