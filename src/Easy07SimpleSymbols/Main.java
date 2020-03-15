@@ -18,7 +18,7 @@ Input:  "f++d+"
 Output: "false"
 */
 
-package SimpleSymbols;
+package Easy07SimpleSymbols;
 
 public class Main {
     public static void main(String[] args) {

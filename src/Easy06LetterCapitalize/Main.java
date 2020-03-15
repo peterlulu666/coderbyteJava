@@ -13,7 +13,7 @@ Output: "Hello World"
 Input:  "i ran there"
 Output: "I Ran There"
 */
-package LetterCapitalize;
+package Easy06LetterCapitalize;
 
 import java.util.Arrays;
 
