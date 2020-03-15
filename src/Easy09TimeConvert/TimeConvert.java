@@ -15,7 +15,7 @@
  Output: "0:45"
  */
 
-package Easy08TimeConvert;
+package Easy09TimeConvert;
 
 public class TimeConvert {
     String minuteToHour(int totalMinute) {
