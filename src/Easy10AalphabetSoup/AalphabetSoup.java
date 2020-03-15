@@ -30,7 +30,17 @@ public class AalphabetSoup {
 
         }
         // Sort array
-        Arrays.sort(characterArray);
+//        Arrays.sort(characterArray);
+        for (int i = 0; i < characterArray.length; i++) {
+            for (int leftIndex = 0; leftIndex < characterArray.length - 1; leftIndex++) {
+                if (characterArray[leftIndex] > characterArray[leftIndex + 1]) {
+                    char temp = characterArray[leftIndex];
+                    characterArray[leftIndex] = characterArray[leftIndex + 1];
+                    characterArray[leftIndex + 1] = temp;
+
+                }
+            }
+        }
         // Declare reverseStr
         String reverseStr = "";
         // Copy letter in characterArray to reverseStr
@@ -46,7 +56,7 @@ public class AalphabetSoup {
 
     public static void main(String[] args) {
         var aalphabetSoup = new AalphabetSoup();
-        System.out.println(aalphabetSoup.alphabeticalOrder("bcdeeorty"));
+        System.out.println(aalphabetSoup.alphabeticalOrder("coderbyte"));
 
     }
 
