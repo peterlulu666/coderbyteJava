@@ -24,18 +24,22 @@ public class AalphabetSoup {
     String alphabeticalOrder(String str) {
         // Declare characterArray
         var characterArray = new char[str.length()];
-        // Store letter in str to characterArray
+        // Copy letter in str to characterArray
         for (int i = 0; i < str.length(); i++) {
             characterArray[i] = str.charAt(i);
 
         }
+        // Sort array
         Arrays.sort(characterArray);
+        // Declare reverseStr
         String reverseStr = "";
+        // Copy letter in characterArray to reverseStr
         for (int i = 0; i < characterArray.length; i++) {
             reverseStr = reverseStr + characterArray[i];
 
         }
 
+        // Return reverseStr
         return reverseStr;
 
     }
